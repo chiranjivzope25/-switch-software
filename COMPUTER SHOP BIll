@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+   int mon,cpu,mouse,key,id,paybill,moni,mobile;
+   int cpug,mou,keyb,total,disc;
+   
+   printf("Welcome to chirag electronics\n");
+    char names[100];
+ printf("Enter the name of coustmer\n");
+   scanf("%s",names);
+   printf("Enter the coustmer id\n");
+   scanf("%d",&id);
+    printf("Enter the coustmer mobile  no.\n");
+   scanf("%d",&mobile);
+   printf("Enter the number of monitor you want\n");
+   scanf("%d",&mon);
+   printf("Enter the number of cpu you want\n");
+   scanf("%d",&cpu);
+
+printf("Enter the number of mouse you want\n");
+   scanf("%d",&mouse);
+   printf("Enter the number of keyboard you want\n");
+   scanf("%d",&key);
+   
+   moni = mon*1000;
+   cpug = cpu*2000;
+   mou = mou*100;
+   keyb = key*500;
+   total= moni+cpug+mou+keyb;
+   disc= (20*total)/100;
+   paybill=total-disc;
+   printf("your bill is \n");
+printf("___________________________________________________________________________________________\n");
+printf("-------------------------------------------------------------------------------------------\n");
+printf("                     WELCOME TO CHIRAG ELECTRONICS                       \n");
+printf("-------------------------------------------------------------------------------------------\n");
+printf("___________________________________________________________________________________________\n");
+printf("Name :%s       |       coustmer id:%d \n",names,id);
+printf("mobile no. :%d\n",mobile);
+printf("___________________________________________________________________________________________\n");
+printf("MONITOR :%d\n",mon);
+     
+printf("CPU :%d\n",cpu);
+printf("MOUSE :%d\n",mouse); 
+printf("KEYBOARD :%d\n",key);
+printf("___________________________________________________________________________________________\n");
+printf("There is discount of 20%\n");
+printf("___________________________________________________________________________________________\n");
+printf("___________________________________________________________________________________________\n");
+printf("total bill:%d  | discount is :%d\n",total ,disc);
+printf("___________________________________________________________________________________________\n");
+printf("total bill you have to pay comes below\n");
+printf("___________________________________________________________________________________________\n");
+printf("payable bill :%d :\n",paybill);
+printf("___________________________________________________________________________________________\n");
+printf("-------------------------------------------------------------------------------------------\n");
+printf("               Thankyou For Visiting chirag Electronics                  \n");
+printf("-------------------------------------------------------------------------------------------\n");
+printf("___________________________________________________________________________________________\n");
+    return 0;
+}   
