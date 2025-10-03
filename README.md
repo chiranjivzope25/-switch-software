@@ -5,7 +5,6 @@
    int fort;
    int bmw;
    int rang;
-
 };
 
 int main() {
